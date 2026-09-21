@@ -1,0 +1,6 @@
+{
+  "name": "Calendario Laboral API",
+  "description": "API REST para gestión de calendario laboral, cálculo y verificación de días festivos por país",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

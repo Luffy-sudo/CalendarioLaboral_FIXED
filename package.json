@@ -1,0 +1,28 @@
+{
+  "name": "calendario-laboral-api",
+  "version": "1.0.0",
+  "description": "API REST para calendario laboral y festivos",
+  "main": "dist/server.cjs",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "lint": "tsc --noEmit",
+    "build": "esbuild src/index.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.13.9",
+    "@types/swagger-ui-express": "^4.1.7",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
